@@ -1,0 +1,228 @@
+/* ===================================================================
+   RESET & BASE
+   =================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.5;
+}
+
+/* ===================================================================
+   NAVBAR
+   =================================================================== */
+.navbar {
+  background: #fff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo img {
+  height: 70px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.search-form {
+  display: flex;
+  border: 1px solid #333;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.search-form input,
+.search-form button {
+  border: none;
+  padding: 5px 10px;
+}
+.search-form button {
+  background: transparent;
+  cursor: pointer;
+}
+.icon {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* ===================================================================
+   HERO
+   =================================================================== */
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url('/mujeres/img/principal.webp') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+}
+.hero-text {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background: #111;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #333;
+}
+
+/* ===================================================================
+   CATEGORÍAS
+   =================================================================== */
+.categorias {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.categorias h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.grid-categorias {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.card h3 {
+  padding: 15px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* ===================================================================
+   DESTACADOS / PRODUCTOS
+   =================================================================== */
+.productos {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.productos h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .grid-productos {
+    grid-template-columns: 1fr;
+  }
+}
+.producto {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  height: 400px;
+}
+.producto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.producto:hover img {
+  transform: scale(1.03);
+}
+
+/* Oculta el precio si existe */
+.producto .price {
+  display: none;
+}
+
+/* Nombre del producto: esquina inferior izquierda */
+.product-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Botón "Ver más": esquina inferior derecha */
+.btn-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.btn-overlay:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+/* ===================================================================
+   FOOTER
+   =================================================================== */
+footer {
+  background: #f7f7f7;
+  color: #777;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 20px;
+}
