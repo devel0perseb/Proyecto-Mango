@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,41 +13,62 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div class="container-fluid">
+   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container-fluid">
 
-            <button class="btn me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <a class="navbar-brand" href="index.html">
-                <img src="img/mangologo.png" alt="MANGO" class="d-inline-block align-text-top" style="height: 70px;">
-            </a>
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="img/mangologo.png" alt="MANGO" style="height: 70px;">
+        </a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="ms-auto d-flex align-items-center gap-3">
+        <!-- Contenido colapsable -->
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <form class="d-flex">
-                        <div class="input-group">
-                            <input type="search" class="form-control rounded-start-pill border-dark"
-                                placeholder="Buscar...">
-                            <button class="btn btn-outline-dark rounded-end-pill" type="button"><i
-                                    class="bi bi-search"></i></button>
-                        </div>
-                    </form>
+            <!-- Enlaces visibles SIEMPRE -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hombres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mujeres</a>
+                </li>
+            </ul>
 
-                    <a href="#" class="text-dark fs-4">
-                        <i class="bi bi-person-circle"></i>
-                    </a>
-                    <a href="#" class="text-dark fs-4 position-relative">
-                        <i class="bi bi-bag"></i>
-                    </a>
+            <!-- Sección derecha (buscador + iconos) -->
+            <div class="d-flex align-items-center gap-3">
 
-                </div>
+                <!-- Buscador -->
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input type="search" class="form-control rounded-start-pill border-dark" placeholder="Buscar...">
+                        <button class="btn btn-outline-dark rounded-end-pill" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Iconos -->
+                <a href="#" class="text-dark fs-4">
+                    <i class="bi bi-person-circle"></i>
+                </a>
+                <a href="#" class="text-dark fs-4 position-relative">
+                    <i class="bi bi-bag"></i>
+                </a>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 
+<div class="contenedor-img">
+    <img class="presentacion" src="img/mangoini.png" alt="">
+    <button url="" class="DESCUBRIR" type="button" >DESCUBRIR</button>
+</div>
 
 
     <footer>
@@ -82,7 +103,7 @@
         <a href="#" class="text-dark text-decoration-none me-3">Política de privacidad y cookies</a>
         <a href="#" class="text-dark text-decoration-none">Condiciones de venta</a>
       </div>
-      <div class="small">© 2024 MANGO Todos los derechos reservados</div>
+      <div class="small">©️ 2025 MANGO Todos los derechos reservados</div>
     </div>
   </div>
     </footer>
