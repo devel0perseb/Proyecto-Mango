@@ -1,0 +1,24 @@
+.presentacion{
+max-width: 100%;
+height: auto;
+}
+
+.DESCUBRIR{
+    position: absolute;
+    bottom: 15%;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: #856457;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+
+}
+
+.contenedor-img{
+    position: adsolute;
+    display: inline-block;
+    width: 100%;
+}
