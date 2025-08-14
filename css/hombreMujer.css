@@ -62,7 +62,27 @@ body {
 .hero {
   position: relative;
   height: 90vh;
-  background: url('/mujeres/img/principal.webp') center/cover no-repeat;
+  background: url('/mujeres/img/principalm.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero1 {
+  position: relative;
+  height: 90vh;
+  background: url('/mujeres/img/exclusivem.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero2 {
+  position: relative;
+  height: 90vh;
+  background: url('/mujeres/img/accesoriom.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +92,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
 }
 .hero-text {
   position: relative;
@@ -91,14 +111,14 @@ body {
   display: inline-block;
   padding: 10px 25px;
   font-size: 1rem;
-  color: #fff;
-  background: #111;
+  color: #dbd9d9;
+  background: #c5c3c3;
   text-decoration: none;
   border-radius: 30px;
   transition: background 0.3s;
 }
 .btn:hover {
-  background: #333;
+  background: #f1f0f0;
 }
 
 /* ===================================================================
@@ -191,8 +211,8 @@ body {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
+  background: none;
+  color: #ffffff;
   padding: 4px 8px;
   border-radius: 4px;
   font-weight: bold;
@@ -204,16 +224,19 @@ body {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
+  background: none;
+  color: #e2e1e1;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 0.9rem;
-  text-decoration: none;
-  transition: background 0.2s;
+ text-decoration: none;;
+  
 }
 .btn-overlay:hover {
-  background: rgba(0,0,0,0.7);
+  background: none;
+  color: #fff;
+   text-decoration-line: underline ;
+  
 }
 
 /* ===================================================================
