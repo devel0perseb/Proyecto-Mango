@@ -1,6 +1,4 @@
-/* ===================================================================
-   RESET & BASE
-   =================================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +11,7 @@ body {
   line-height: 1.5;
 }
 
-/* ===================================================================
-   NAVBAR
-   =================================================================== */
+
 .navbar {
   background: #fff;
   padding: 15px 20px;
@@ -56,9 +52,7 @@ body {
   color: #000;
 }
 
-/* ===================================================================
-   HERO
-   =================================================================== */
+
 .hero {
   position: relative;
   height: 90vh;
@@ -121,9 +115,7 @@ body {
   background: #f1f0f0;
 }
 
-/* ===================================================================
-   CATEGORÍAS
-   =================================================================== */
+
 .categorias {
   padding: 60px 20px;
   text-align: center;
@@ -160,9 +152,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ===================================================================
-   DESTACADOS / PRODUCTOS
-   =================================================================== */
+
 .productos {
   padding: 60px 20px;
   text-align: center;
@@ -201,12 +191,11 @@ body {
   transform: scale(1.03);
 }
 
-/* Oculta el precio si existe */
 .producto .price {
   display: none;
 }
 
-/* Nombre del producto: esquina inferior izquierda */
+/* Nombre del producto */
 .product-name {
   position: absolute;
   bottom: 10px;
@@ -219,7 +208,7 @@ body {
   text-decoration: none;
 }
 
-/* Botón "Ver más": esquina inferior derecha */
+/* Botón Ver más*/
 .btn-overlay {
   position: absolute;
   bottom: 10px;
@@ -239,9 +228,7 @@ body {
   
 }
 
-/* ===================================================================
-   FOOTER
-   =================================================================== */
+
 footer {
   background: #f7f7f7;
   color: #777;
