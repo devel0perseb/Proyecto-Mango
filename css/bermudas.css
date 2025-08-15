@@ -1,5 +1,5 @@
 .hero {
-    background: url('/pantalones/img/fondo\ pantalones.png') center/cover no-repeat;
+  background: url('/bermudas/img/bermuda.png') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -7,6 +7,7 @@
     text-align: center;
     color: white;
     position: relative;
+    
 }
 .hero::after {
     content: "";
@@ -73,7 +74,7 @@
 
 .hero-section {
     height: 80vh;
-    background-image: url('../img/pantalones-bg.jpg'); 
+    background-image: url('../bermudas/img/bermuda.png'); 
     background-size: cover;
     background-position: center;
     position: relative;

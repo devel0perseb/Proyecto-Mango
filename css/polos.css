@@ -1,5 +1,5 @@
 .hero {
-    background: url('/pantalones/img/fondo\ pantalones.png') center/cover no-repeat;
+    background: url('/polos/img/polos.png') center/cover no-repeat;
     height: 80vh;
     display: flex;
     align-items: center;
@@ -73,7 +73,7 @@
 
 .hero-section {
     height: 80vh;
-    background-image: url('../img/pantalones-bg.jpg'); 
+    background-image: url('../polos/img/polos.png'); 
     background-size: cover;
     background-position: center;
     position: relative;

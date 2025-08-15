@@ -5,19 +5,18 @@
 }
 
 .offcanvas-body a:hover {
-  color: #a47864; /* color de acento */
+  color: #a47864; 
 }
 
 .imgLogo {
   height: 70px;
 }
 
-/* Estilos para la imagen de mango con botón */
      .mango-imagen {
       position: relative;
       display: inline-block;
       width: 100%;
-      max-width: 100%; /* tamaño máximo opcional */
+      max-width: 100%; 
     }
 
     .mango-imagen img {
@@ -29,7 +28,7 @@
 
       .mango-boton {
       position: absolute;
-      bottom: 10%; /* porcentaje para que se mueva proporcionalmente */
+      bottom: 10%; 
       left: 70%;
       transform: translateX(-50%);
       background-color: #a47864;
@@ -38,7 +37,7 @@
       padding: 10px 22px;
       border-radius: 20px;
       cursor: pointer;
-      font-size: clamp(12px, 2vw, 14px); /* tamaño de texto responsivo */
+      font-size: clamp(12px, 2vw, 14px);
       font-family: Arial, sans-serif;
     }
 
